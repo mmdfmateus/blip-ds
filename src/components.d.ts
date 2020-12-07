@@ -732,7 +732,7 @@ export namespace Components {
          */
         "icon"?: string;
         /**
-          * Event used to execute some action when the action button on the toast is clicked
+          * The toast position on the screen. Can be one of: 'top-right', 'top-left', 'bottom-right', 'bottom-left' (default value);
          */
         "position": PositionType;
         /**
@@ -1783,11 +1783,11 @@ declare namespace LocalJSX {
          */
         "icon"?: string;
         /**
-          * The toast position on the screen. Can be one of: 'top-right', 'top-left', 'bottom-right', 'bottom-left' (default value);
+          * Event used to execute some action when the action button on the toast is clicked
          */
         "onToastButtonClick"?: (event: CustomEvent<any>) => void;
         /**
-          * Event used to execute some action when the action button on the toast is clicked
+          * The toast position on the screen. Can be one of: 'top-right', 'top-left', 'bottom-right', 'bottom-left' (default value);
          */
         "position"?: PositionType;
         /**
